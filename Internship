@@ -1,0 +1,184 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Landing Page</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header class="hero">
+        <nav>
+            <ul>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hero-content">
+            <h1>Welcome to SAFARANAMA</h1>
+            <p> Tell us about your bucket list! /p>
+            <a href="#cta" class="cta-button">Get Started</a>
+        </div>
+    </header>
+
+    <section id="features">
+        <h2>Features</h2>
+        <div class="feature">
+            <h3> CAB Facility </h3>
+            <p> Complete pick-up and drop facility during your tour . </p>
+        </div>
+        <div class="feature">
+            <h3> Room Booking</h3>
+            <p>During your visit, we offer you a variety of hotel choices. </p>
+        </div>
+    </section>
+
+    <section id="pricinng">
+        <h2>Pricing</h2>
+        <div class="pricing-plan">
+            <h3>Basic Plan</h3>
+            <p>$20/month</p>
+            <ul>
+                <li>Cab Facility</li>
+                <li>Room Booking</li>
+            </ul>
+            <a href="#cta" class="cta-button">Get Started</a>
+        </div>
+        <div class="pricing-plan">
+            <h3>Premium Plan</h3>
+            <p>$100/month</p>
+            <ul>
+                <li>Cab Facility</li>
+                <li>Room Booking</li>
+            </ul>
+            <a href="#cta" class="cta-button">Get Started</a>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions or need assistance? Feel free to contact us.</p>
+        <a href="mailto:contact@example.com" class="cta-button">Email Us</a>
+    </section>
+</body>
+</html>
+/* styling section*/
+* Reset default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+* Set a background color and text color. *
+body {
+    background-color: #f2f2f2;
+    font-family: Algerian, sans-serif;
+    color: #333;
+}
+
+* Style the navigation bar */
+header ul {
+    list-style: none;
+}
+
+header li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Style the hero section */
+.hero {
+    background-image: url('your-background-image.jpg'); /* Add your background image URL here */
+    background-size: cover;
+    text-align: center;
+    padding: 100px 0;
+    color: #rgb(#,0,0);
+}
+
+.hero h1 {
+    font-size: 36px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+/* Style the features section */
+#features {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.feature {
+    margin: 20px;
+}
+
+.feature .icon {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.feature h3 {
+    font-size: 24px;
+}
+
+/* Style the pricing section */
+#pricing {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.pricing-plan {
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.pricing-plan h3 {
+    font-size: 24px;
+}
+
+.pricing-plan p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.pricing-plan ul {
+    list-style: none;
+    margin: 20px 0;
+}
+
+.pricing-plan ul li {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Style the contact section */
+#contact {
+    padding: 50px 0;
+    text-align: center;
+}
+
+#contact p {
+    font-size: 18px;
+    margin: 20px 0;
+}
